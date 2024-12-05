@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #2c6e49;
+    color: #fff;
+  }
+  
+  nav a {
+    margin-left: 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .blog-post {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .blog-post img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+  
+  .share {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .share a {
+    color: #2c6e49;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+  }
+  

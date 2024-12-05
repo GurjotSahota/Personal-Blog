@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe - Trending Car News</title>
+  <link rel="stylesheet" href="css/subscribe.css">
+</head>
+<body>
+  <header>
+    <h1>Trending Car News</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="subscribe.html">Subscribe</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="subscribe-section">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay updated with the latest car news and trends. Enter your details below:</p>
+      
+      <!--Made a subscribe form -->
+      <form class="subscribe-form" action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <label for="interests">Interests:</label>
+        <select id="interests" name="interests" required>
+          <option value="" disabled selected>Select your interest</option>
+          <option value="electric">Electric Cars</option>
+          <option value="luxury">Luxury Cars</option>
+          <option value="sports">Sports Cars</option>
+          <option value="news">General Car News</option>
+        </select>
+
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Trending Car News. All rights reserved.</p>
+  </footer>
+</body>
+</html>
