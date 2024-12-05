@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: #2c6e49;
+    background: #f80101;
     color: #fff;
   }
   
@@ -50,7 +50,7 @@
   }
   
   button {
-    background: #2c6e49;
+    background: #f80101;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -59,7 +59,7 @@
   }
   
   button:hover {
-    background: #2c5f2d;
+    background: #f80101;
   }
   
   footer {

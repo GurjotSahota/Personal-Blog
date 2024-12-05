@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: #2c6e49;
+    background: #f80101;
     color: #fff;
   }
   
@@ -45,7 +45,7 @@
   }
   
   .share a {
-    color: #2c6e49;
+    color: #f80101;
     text-decoration: none;
   }
   
